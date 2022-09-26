@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 
 using namespace std;
 
@@ -7,6 +6,8 @@ int main()
 {
 
 // luas lingkaran
+
+    cout << "Luas Lingkarang" << endl;
     float r;
     float phi = 3.14;
     float L;
@@ -17,9 +18,10 @@ int main()
     cout << " jari jari " << r << " cm, luas lingkaran adalah = " << L << " cm " <<endl;
 
 // luas persegi panjang
+
+  cout << "Luas Persegi panjang" << endl;
     float p;
     float l;
-    float L;
     cout << "masukan panjang (cm) =" <<endl;
     cin >> p;
     cout << "masukkan lebar (cm) =" <<endl;
